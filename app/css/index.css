@@ -1,0 +1,168 @@
+
+/*****ABOUT ME*****/
+.content-area {
+  padding: 36px 40px;
+}
+.profile-image-wrapper {
+  border: 9px solid #f6f5f4;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(202,200,198,.75);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(202,200,198,.75);
+  box-shadow: 0px 0px 1px 1px rgba(202,200,198,.75);
+  display: inline-block;
+  height: 152px;
+  overflow: hidden;
+  width: 152px;
+}
+.profile-image {
+  width: 100%;
+}
+.info {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  margin-left: 32px;
+  padding: 0;
+  vertical-align: top;
+  width: 380px;
+}
+.info-item {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-item-skills {
+  padding-top: 10px;
+}
+.info-point {
+  font-weight: 600;
+}
+.skills-align {
+  display: inline-block;;
+  vertical-align: top;
+}
+.skills-list {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 240px;
+}
+.skill {
+  background-image: url(../images/button.png);
+  background-position: -3px -34px;
+  color: #1e7465;
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 2.9;
+  padding: 0 2px;
+  text-transform: uppercase;
+}
+.skill-item {
+  display: inline-block;
+  margin-left: 5px;
+}
+.skill-item:before {
+  content: " ";
+  background-image: url(../images/button.png);
+  background-position: -3px -65px;
+  display: block;
+  float: left;
+  height: 25px;
+  width: 12px;
+}
+.skill-item:after {
+  content: " ";
+  background-image: url(../images/button.png);
+  background-position: -3px -3px;
+  display: block;
+  float: right;
+  height: 25px;
+  width: 9px;
+}
+.aboutme-list-item:first-child {
+  border-top: none;
+  box-shadow: none;
+  padding-top: 9px;
+}
+.aboutme-list-item {
+  border-top: 1px solid #fff;
+  -webkit-box-shadow:0px -1px 0px 0px rgba(249,248,248,1), 0px -2px 0px 0px rgba(219,219,218,1),  0px -3px 0px 0px rgba(249,248,248,1);
+  -moz-box-shadow: 0px -1px 0px 0px rgba(249,248,248,1), 0px -2px 0px 0px rgba(219,219,218,1),  0px -3px 0px 0px rgba(249,248,248,1);
+  box-shadow: 0px -1px 0px 0px rgba(249,248,248,1), 0px -2px 0px 0px rgba(219,219,218,1),  0px -3px 0px 0px rgba(249,248,248,1);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 25px 0;
+  width: 565px;
+}
+.brief-case:before {
+  background-image: url(../images/icons.png);
+  background-position: -3px -3px;
+  background-repeat: no-repeat;
+  content: " ";
+  display: block;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: 
+      translateY(-50%)
+      translateX(-180%);
+  width: 54px;
+}
+.aboutme-list-item-content {
+  display: inline-block;
+  line-height: 1.5;
+  margin-left: 96px;
+  position: relative;
+  width: 466px;
+}
+.first-line {
+  display: inline-block;
+  font-weight: 600;
+}
+.school:before {
+  background-image: url(../images/icons.png);
+  background-position: -3px -294px;
+  background-repeat: no-repeat;
+  content: " ";
+  display: block;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: 
+      translateY(-50%)
+      translateX(-180%);
+  width: 54px;
+}
+.graduate:before {
+  background-image: url(../images/icons.png);
+  background-position: -3px -144px;
+  background-repeat: no-repeat;
+  content: " ";
+  display: block;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: 
+      translateY(-50%)
+      translateX(-180%);
+  width: 54px;
+}
+.file:before {
+  background-image: url(../images/icons.png);
+  background-position: -3px -83px;
+  background-repeat: no-repeat;
+  content: " ";
+  display: block;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: 
+      translateY(-50%)
+      translateX(-180%);
+  width: 54px;
+}
+
+
