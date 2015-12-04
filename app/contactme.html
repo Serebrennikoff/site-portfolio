@@ -32,23 +32,30 @@
 
   <div class="container-narrow clearfix">
     <aside class="sidebars">
+
       <nav>
         <ul class="ul-reset">
-          <li><a href="index.html" class="sidebar-nav-item sidebar-nav-item-active">Обо мне</a></li>
+          <li><a href="index.html" class="sidebar-nav-item sidebar-nav-item-first">Обо мне</a></li>
           <li><a href="#" class="sidebar-nav-item">Мои Работы</a></li>
-          <li><a href="contactme.html" class="sidebar-nav-item">Обратная связь</a></li>
+          <li><a href="contactme.html" class="sidebar-nav-item sidebar-nav-item-last sidebar-nav-item-active">Обратная связь</a></li>
         </ul>
       </nav>
+
       <div class="contacts">
         <h3 class="contacts-header">Контакты</h3>
         <ul class="ul-reset">
           <li>
-            <a href="mailto:pirik94@bk.ru" class="contacts-list-link">pirik94@bk.ru</a>
+            <a href="mailto:pirik94@bk.ru" class="contacts-list-link email">pirik94@bk.ru</a>
           </li>
-          <li><a href="tel:+79167974226" class="contacts-list-link phn-nbr">+79167974226</a></li>
-          <li><a href="skype:moooolassar" class="contacts-list-link contacts-list-link-last skype">moooolassar</a></li>
+          <li>
+            <a href="tel:+79167974226" class="contacts-list-link phone">+79167974226</a>
+          </li>
+          <li>
+            <a href="skype:moooolassar" class="contacts-list-link contacts-list-link-last skype">moooolassar</a>
+          </li>
         </ul>
       </div>
+
     </aside>
 
 
@@ -58,12 +65,25 @@
         <header class="section-header"><h1 class="contactme-header">У вас интересный проект? Напишите мне</h1></header>
         <div class="form-container">
           <form>
-            <label for="name">Имя</label>
-            <input id="name"type="text" placeholder="Как к Вам обращаться">
-            <label for="email">Email</label>
-            <input id="email"type="email" placeholder="Куда мне писать">
-            <label for="message">Сообщение</label>
-            <textarea id="message" placeholder="Кратко в чем суть"></textarea>
+            <div class="form-group">
+              <label class="form-label" for="name">Имя</label>
+              <input id="name" class="form-input" type="text" placeholder="Как к Вам обращаться">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input id="email" class="form-input" type="email" placeholder="Куда мне писать">
+            </div>
+            <label class="form-label" for="message">Сообщение</label>
+            <textarea id="message" class="form-textarea" placeholder="Кратко в чем суть"></textarea>
+            <div class="captcha-section">
+              <label class="form-label" for="captcha">Введите код указанный на картинке</label>
+              <div class="captcha"></div>
+              <input id="captcha" class="captcha-input" type="text" placeholder="Введите код">
+            </div>
+            <div class="button-group">
+              <input type="submit" class="form-send" value="Отправить">
+              <input type="submit" class="form-clear" value="Очистить">
+            </div>
           </form>
         </div>
       
