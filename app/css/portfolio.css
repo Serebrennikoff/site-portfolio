@@ -1,0 +1,139 @@
+.portfolio-section {
+  min-height: 837px;
+}
+.works-row {
+  margin-bottom: 33px;
+}
+.portfolio-work {
+  background-color: #fff;
+  border: solid 1px #d3d3d3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 1px rgba(9,9,9,.07);
+  -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07);
+  box-shadow: 0 2px 1px rgba(9,9,9,.07);
+  float: left;
+  margin: 0;
+  margin-left: 36px;
+  width: 164px;
+}
+.portfolio-work:first-child {
+  margin-left: 0;
+}
+.more-details:link,
+.more-details:visited {
+  background-color: #6f6d6d;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  color: #727070;
+  display: block;
+  position: relative;
+}
+.more-details-link {
+  background-color: #faf9f9;
+  background-image: -webkit-linear-gradient(bottom, #e7e5e4, #faf9f9 94%, #fff);
+  background-image: -moz-linear-gradient(bottom, #e7e5e4, #faf9f9 94%, #fff);
+  background-image: -o-linear-gradient(bottom, #e7e5e4, #faf9f9 94%, #fff);
+  background-image: -ms-linear-gradient(bottom, #e7e5e4, #faf9f9 94%, #fff);
+  background-image: linear-gradient(to top, #e7e5e4, #faf9f9 94%, #fff);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 1px rgba(17,17,17,.07), inset 0 -2px 3px rgba(45,45,45,.05), inset 0 0 3px #f6f6f7;
+  -moz-box-shadow: 0 2px 1px rgba(17,17,17,.07), inset 0 -2px 3px rgba(45,45,45,.05), inset 0 0 3px #f6f6f7;
+  box-shadow: 0 2px 1px rgba(17,17,17,.07), inset 0 -2px 3px rgba(45,45,45,.05), inset 0 0 3px #f6f6f7;
+  display: none;
+  font-weight: 600;
+  height: 30px;
+  left: 27%;
+  position: absolute;
+  padding: 5px;
+  text-shadow: 0 1px rgba(255,255,255,.35);
+  top: 35%;
+  width: auto;
+  z-index: 10;
+}
+.more-details-link:hover {
+  background-image: -webkit-linear-gradient(bottom, #c0bebe, #e2e0e0 86%, #e2e0e0 87%, #e7e6e6);
+  background-image: -moz-linear-gradient(bottom, #c0bebe, #e2e0e0 86%, #e2e0e0 87%, #e7e6e6);
+  background-image: -o-linear-gradient(bottom, #c0bebe, #e2e0e0 86%, #e2e0e0 87%, #e7e6e6);
+  background-image: -ms-linear-gradient(bottom, #c0bebe, #e2e0e0 86%, #e2e0e0 87%, #e7e6e6);
+  background-image: linear-gradient(to top, #c0bebe, #e2e0e0 86%, #e2e0e0 87%, #e7e6e6);
+}
+.more-details:hover .more-details-link {
+  display: block;
+}
+.site-pic {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  height: auto;
+  width: 100%;
+}
+.site-pic:hover {
+  opacity: 0.4;
+}
+.site-details {
+  border-top: 1px solid #bfbfbf;
+  margin-top: -4px;
+  position: relative;
+}
+.site-name {
+  background-color: #f2f2f2;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 9px;
+  text-align: center;
+}
+.site-description {
+  text-align: center;
+  margin: 4px 0;
+  padding: 0 7px;
+}
+.add-project {
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(bottom, #edebea, #fbf9f9 94%, #fff);
+  background-image: -moz-linear-gradient(bottom, #edebea, #fbf9f9 94%, #fff);
+  background-image: -o-linear-gradient(bottom, #edebea, #fbf9f9 94%, #fff);
+  background-image: -ms-linear-gradient(bottom, #edebea, #fbf9f9 94%, #fff);
+  background-image: linear-gradient(to top, #edebea, #fbf9f9 94%, #fff);
+  border: solid 1px #b6b6b6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
+  -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
+  box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
+  float: left;
+  height: 134px;
+  margin-left: 36px;
+  width: 164px;
+}
+.add-btn {
+  background-image: url(../images/polaroid.png);
+  background-position: 50% 33%;
+  background-repeat: no-repeat;
+  color: #727070;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 90px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.add-btn:hover {
+  background-image: url(../images/polaroid-hover.png);
+}
+.add-project:hover {
+  background-image: -webkit-linear-gradient(bottom, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
+  background-image: -moz-linear-gradient(bottom, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
+  background-image: -o-linear-gradient(bottom, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
+  background-image: -ms-linear-gradient(bottom, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
+  background-image: linear-gradient(to top, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
+}

@@ -2,8 +2,8 @@
   color: #eeedec;
   font-size: 24px;
   font-weight: 400;
-  height: 54px;
-  line-height: 0.5;
+  line-height: 2;
+  margin: 0;
   text-shadow: 0 1px #666565;
 }
 .form-container {
