@@ -1,0 +1,26 @@
+body {
+  background-color: #E7E8AE;
+  background-image: none;
+}
+
+.sidebar-nav-item:link,
+.sidebar-nav-item:visited { background-color: #fbf9f9; }
+
+.sidebar-nav-item:hover { background-color: #e3e1e1; }
+
+.sidebar-nav-item-active:link,
+.sidebar-nav-item-active:visited { background-color: #7ee8ce; }
+
+.sidebar-nav-item-active:hover { background-color: #90dbbd; }
+
+.contacts-list-link:hover { background-color: #f6efe0; }
+
+.contacts-list-link:after { display: none; }
+
+.email:before { display: none; }
+.phone:before { display: none; }
+.skype:before { display: none; }
+.file:before { display: none; }
+.graduate:before { display: none; }
+.school:before { display: none; }
+.brief-case:before { display: none; }

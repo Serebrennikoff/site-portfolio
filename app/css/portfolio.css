@@ -2,7 +2,10 @@
   min-height: 837px;
 }
 .works-row {
+  list-style: none;
+  margin: 0;
   margin-bottom: 33px;
+  padding: 0;
 }
 .portfolio-work {
   background-color: #fff;
@@ -82,11 +85,13 @@
 }
 .site-name {
   background-color: #f2f2f2;
+  color: #727070;
   display: block;
   font-size: 13px;
   font-weight: 700;
   padding: 9px;
   text-align: center;
+  text-decoration: none;
 }
 .site-description {
   text-align: center;
@@ -113,9 +118,6 @@
   width: 164px;
 }
 .add-btn {
-  background-image: url(../images/polaroid.png);
-  background-position: 50% 33%;
-  background-repeat: no-repeat;
   color: #727070;
   display: block;
   font-size: 14px;
@@ -127,8 +129,29 @@
   text-align: center;
   text-decoration: none;
 }
-.add-btn:hover {
-  background-image: url(../images/polaroid-hover.png);
+.add-btn:before {
+  background-color: transparent;
+  background-image: url(../images/spritesheet.png);
+  background-position: -31px -765px;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 26px 27px 27px 26px/27px;
+  -moz-border-radius: 26px 27px 27px 26px/27px;
+  border-radius: 26px 27px 27px 26px/27px;
+  -webkit-box-shadow: 1px 1px #fff, inset 1px 1px rgba(198,198,198,.75);
+  -moz-box-shadow: 1px 1px #fff, inset 1px 1px rgba(198,198,198,.75);
+  box-shadow: 1px 1px #fff, inset 1px 1px rgba(198,198,198,.75);
+  content: " ";
+  display: block;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: 
+      translateY(-75%)
+      translateX(100%);
+  width: 54px;
+}
+.add-btn:hover .add-btn:before{
+  background-color: red;
 }
 .add-project:hover {
   background-image: -webkit-linear-gradient(bottom, #c2c0c0, #e3e1e1 86%, #e3e1e1 87%, #e8e7e7);
