@@ -9,6 +9,7 @@ var myModule = (function () {
   // Прослушивает события 
   function _setUpListners () {
     $('#add-new-project').on('click', _showModal);  
+    $(document).mouseup(_resetFormOnPopupClose);
   };
 
   // Работает с модальным окном
@@ -18,6 +19,21 @@ var myModule = (function () {
       speed: 500,
       transition: 'slideDown',
     });
+  };
+  // Сброс формы попапа при клике за пределами
+  function _resetFormOnPopupClose (e) {
+    var popup = $("#add-project-popup");
+    if (!popup.is(e.target)
+    && popup.has(e.target).length === 0) {
+      $('#form input, textarea').not('#submit, #reset, #my-file')
+      .each(function(indx, element){
+        if($(element).val() !== ""){
+          $(element).val("")
+        } else if($(element).hasClass("empty-input")) {
+          $(element).removeClass("empty-input").tooltipster('hide');
+        }
+      });
+    }
   };
 
   // Возвращаем объект (публичные методы) 

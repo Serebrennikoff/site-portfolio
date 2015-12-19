@@ -7,6 +7,8 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,300,400,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+  <link rel="stylesheet" href="bower/tooltipster/css/tooltipster.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/contactme.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -36,10 +38,10 @@
     <div class="container clearfix">
       <div class="header-logo"><a href="index.html" class="header-logo-link"><img src="images/logo.png" class="header-logo-img" alt="logo"></a></div>
       <ul class="social-icons">
-        <li class="social-icons-item"><a href="#" class="facebook" title="facebook">facebook</a></li>
-        <li class="social-icons-item"><a href="#" class="vk" title="vkontakte">vkontakte</a></li>
-        <li class="social-icons-item"><a href="#" class="twitter" title="twitter">twitter</a></li>
-        <li class="social-icons-item"><a href="#" class="github" title="github">github</a></li>
+        <li class="social-icons-item"><a href="https://www.facebook.com/pirik.silver" class="facebook" title="facebook" target="_blank">facebook</a></li>
+        <li class="social-icons-item"><a href="https://vk.com/kirserebren" class="vk" title="vkontakte" target="_blank">vkontakte</a></li>
+        <li class="social-icons-item"><a href="#" class="twitter" title="twitter" target="_blank">twitter</a></li>
+        <li class="social-icons-item"><a href="https://github.com/Serebrennikoff" class="github" title="github" target="_blank">github</a></li>
       </ul>
     </div>
   </header>
@@ -78,25 +80,25 @@
       <section class="content-section">
         <header class="section-header"><h1 class="contactme-header">У вас интересный проект? Напишите мне</h1></header>
         <div class="form-container">
-          <form>
+          <form id="form">
             <div class="form-group">
               <label class="form-label" for="name">Имя</label>
-              <input id="name" class="form-input" type="text" placeholder="Как к Вам обращаться">
+              <input id="name" class="form-input tooltip" type="text" placeholder="Как к Вам обращаться" title="Вы не ввели имя">
             </div>
             <div class="form-group">
               <label class="form-label" for="email">Email</label>
-              <input id="email" class="form-input" type="email" placeholder="Куда мне писать">
+              <input id="email" class="form-input tooltip" type="email" placeholder="Куда мне писать" title="Вы не ввели email">
             </div>
             <label class="form-label" for="message">Сообщение</label>
-            <textarea id="message" class="form-textarea" placeholder="Кратко в чем суть"></textarea>
+            <textarea id="message" class="form-textarea tooltip" placeholder="Кратко в чем суть" title="Какое у вас для меня сообщение?"></textarea>
             <div class="captcha-section">
               <label class="form-label" for="captcha">Введите код указанный на картинке</label>
               <div class="captcha"></div>
-              <input id="captcha" class="captcha-input" type="text" placeholder="Введите код">
+              <input id="captcha" class="captcha-input tooltip" type="text" placeholder="Введите код" title="Вы не ввели код">
             </div>
             <div class="button-group">
-              <input type="submit" class="form-send" value="Отправить">
-              <input type="reset" class="form-clear" value="Очистить">
+              <input id="submit" type="submit" class="form-send" value="Отправить">
+              <input id="reset" type="reset" class="form-clear" value="Очистить">
             </div>
           </form>
         </div>
@@ -121,7 +123,9 @@
 
   <script src="bower/jquery/jquery.min.js"></script>
   <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+  <script src="bower/tooltipster/js/jquery.tooltipster.min.js"></script>
   
   <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
 </body>
 </html>
