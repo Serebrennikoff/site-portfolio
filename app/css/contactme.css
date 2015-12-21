@@ -1,7 +1,6 @@
 .contactme-header {
   color: #eeedec;
-  font-size: 24px;
-  font-weight: 400;
+  font: 24px 'open_sansregular';
   line-height: 2;
   margin: 0;
   text-shadow: 0 1px #666565;
@@ -99,8 +98,7 @@
   -webkit-box-shadow: inset 0 1px rgba(255,255,255,.3);
   -moz-box-shadow: inset 0 1px rgba(255,255,255,.3);
   box-shadow: inset 0 1px rgba(255,255,255,.3);
-  font-size: 14px;
-  font-weight: 700;
+  font: 14px 'open_sansbold';
   height: 37px;
   margin-left: 96px;
   text-shadow: 0 1px rgba(255,255,255,.40);

@@ -18,8 +18,7 @@
 }
 .popup-title {
   color: #fff;
-  font-size: 12px;
-  font-weight: 300;
+  font: 12px 'open_sanslight';
   margin-top: -22px;
   width: 200px;
 }

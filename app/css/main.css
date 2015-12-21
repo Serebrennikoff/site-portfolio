@@ -8,7 +8,7 @@ body {
   background: #f9e5aa url(../images/page-bg.png) no-repeat;
   background-size: cover;
   color: #727070;
-  font: 12px 'Open Sans';
+  font: 12px 'open_sansregular';
 }
 
 .ul-reset {
@@ -144,8 +144,7 @@ body {
   -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
   box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
   color: #727070;
-  font-size: 20px;
-  font-weight: 600;
+  font: 20px 'open_sanssemibold';
   height: auto;
   line-height: 2.8;
   padding-left: 26px;
@@ -172,8 +171,7 @@ body {
   box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
   color: #1e7465;
   display: block;
-  font-size: 20px;
-  font-weight: 600;
+  font: 20px 'open_sanssemibold';
   height: auto;
   line-height: 2.8;
   padding-left: 26px;
@@ -216,11 +214,10 @@ body {
   -moz-box-shadow: 0 2px 1px rgba(9,9,9,.17), inset 0 1px rgba(255,255,255,.25), inset 0 0 3px rgba(246,247,247,.15);
   box-shadow: 0 2px 1px rgba(9,9,9,.17), inset 0 1px rgba(255,255,255,.25), inset 0 0 3px rgba(246,247,247,.15);
   color: #d0982c;
-  font-size: 20px;
-  font-weight: 600;
+  font: 20px 'open_sanssemibold';
   height: 44px;
   line-height: 2.2;
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 24px;
   text-shadow: 0 1px rgba(255,255,255,.4);
   width: 248px;
@@ -240,8 +237,7 @@ body {
   box-shadow: 0 0 1px rgba(255,255,255,.15), 0 1px rgba(255,255,255,.35), inset 0 2px 2px rgba(114,112,112,.1);
   color: #727070;
   display: block;
-  font-size: 14px;
-  font-weight: 400;
+  font: 14px 'open_sansregular';
   line-height: 2.5;
   height: auto;
   padding-left: 96px;
@@ -353,8 +349,7 @@ body {
 }
 .section-header-title {
   color: #eeedec;
-  font-size: 24px;
-  font-weight: 600;
+  font: 24px 'open_sanssemibold';
   line-height: 2;
   margin: 0;
   text-shadow: 0 1px #666565;
@@ -381,7 +376,7 @@ body {
 }
 .footer-login {
   display: inline-block;
-  font-weight: 700;
+  font-family: 'open_sansbold';
   height: 22px;
   padding-left: 26px;
   padding-top: 5px;
@@ -400,7 +395,7 @@ body {
 }
 .footer-copyright {
   display: inline-block;
-  font-weight: 300;
+  font-family: 'open_sanslight';
   margin-left: 62px;
 }
 
@@ -419,8 +414,7 @@ body {
 
 .form-label {
   display: block;
-  font-size: 14px;
-  font-weight: 400;
+  font: 14px 'open_sansregular';
   margin-bottom: 7px;
 }
 .button-group {
@@ -441,8 +435,7 @@ body {
   -moz-box-shadow: inset 0 1px rgba(255,255,255,.3);
   box-shadow: inset 0 1px rgba(255,255,255,.3);
   color: #1e7465;
-  font-size: 14px;
-  font-weight: 700;
+  font: 14px 'open_sansbold';
   height: 37px;
   text-shadow: 0 1px rgba(255,255,255,.40);
   width: 121px;

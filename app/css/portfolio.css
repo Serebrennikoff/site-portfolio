@@ -16,12 +16,14 @@
   -webkit-box-shadow: 0 2px 1px rgba(9,9,9,.07);
   -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07);
   box-shadow: 0 2px 1px rgba(9,9,9,.07);
-  float: left;
+  display: inline-block;
   margin: 0;
-  margin-left: 36px;
+  margin-bottom: 45px;
+  margin-left: 34px;
+  vertical-align: top;
   width: 164px;
 }
-.portfolio-work:first-child {
+.first-in-row {
   margin-left: 0;
 }
 .more-details:link,
@@ -43,8 +45,7 @@
   right: -2000px;
   width: 100px;
   text-align:center;  
-  font-size: 12px;
-  font-weight: 600;
+  font: 12px 'open_sanssemibold';
   padding: 5px;   
   transition: 0.5s Ease;
   z-index: 30;
@@ -72,8 +73,7 @@
   background-color: #f2f2f2;
   color: #727070;
   display: block;
-  font-size: 13px;
-  font-weight: 700;
+  font: 13px 'open_sansbold';
   padding: 9px;
   text-align: center;
   text-decoration: none;
@@ -97,16 +97,16 @@
   -webkit-box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
   -moz-box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
   box-shadow: 0 2px 1px rgba(9,9,9,.07), inset 0 -2px 3px rgba(41,41,41,.05), inset 0 0 3px #f6f7f7;
-  float: left;
+  display: inline-block;
+  margin-left: 34px;
   height: 134px;
-  margin-left: 36px;
+  vertical-align: top;
   width: 164px;
 }
 .add-btn {
   color: #727070;
   display: block;
-  font-size: 14px;
-  font-weight: 600;
+  font: 14px 'open_sanssemibold';
   height: 100%;
   padding-top: 90px;
   position: relative;
